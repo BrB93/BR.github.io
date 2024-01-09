@@ -18,7 +18,7 @@ main {
 
 @media screen and (max-width: 991px) {
     body {
-        margin-left: 0.1em;
+        margin-left: 0.5em;
     }
 
     .exper {
@@ -41,33 +41,40 @@ main {
         font-size: 0.80em;
         display: flex;
 
-    
+
     }
 
     .h1 {
         font-size: 5em;
     }
-    .box{
-        
+
+    .box {
+
         padding: none;
     }
-    .conteneur{
+
+    .conteneur {
         display: flex;
         flex-direction: column;
         width: fit-content;
-        
-
     }
-    .box{
-        display: flex;        
+
+    .box {
+        display: flex;
         align-items: center;
         padding: 0.2em;
         text-align: center;
-
-        
     }
 
-    
+    .nume {
+        background-color: none
+    }
+
+    a:hover {
+        background-color: none;
+
+    }
+
 
 }
 
@@ -84,9 +91,11 @@ h1 {
     font-size: 1.15em;
     margin-left: 2em;
 }
-.localisation{
+
+.localisation {
     font-size: 0.75em;
 }
+
 table {
 
     border: 1px solid rgba(95, 94, 94, 0.397);
@@ -132,6 +141,7 @@ tr {}
     display: flex;
     border-radius: 0.5em;
 }
+
 .box {
     background-color: #2d2d2d;
     border-radius: 0.5em;
@@ -142,26 +152,34 @@ tr {}
     justify-content: center;
     padding: 0.2em;
     text-align: center;
-  }
-  
-  .conteneur {
+}
+
+.conteneur {
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
-  }
-.mail:hover{
-    color;
 }
-.mail{
+
+.mail {
     background-color: #2d2d2d;
 }
-.conteneur{
+
+.nume {
+    background-color: #2d2d2d;
+}
+
+.conteneur {
     margin-bottom: 3em;
 }
-.expp, .formm, .aprop, .Contact{
+
+.expp,
+.formm,
+.aprop,
+.Contact {
     padding-right: 0.4em;
 }
-footer{
+
+footer {
     font-size: 0.50em;
     text-align: center;
     padding: 1em;

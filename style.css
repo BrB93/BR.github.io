@@ -3,81 +3,23 @@
     font-size: 1em;
     color: rgb(119, 118, 118);
     background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
 body {
-    margin-left: 4em;
-
+    margin: 0;
+    padding: 0;
+    padding-left: 4em;
 }
 
 main {
     background-color: rgb(0, 0, 0);
 }
 
-
-
-@media screen and (max-width: 991px) {
-    body {
-        margin-left: 0.5em;
-    }
-
-    .exper {
-        margin-top: 5em;
-    }
-
-    .brypp {
-        margin-top: 2em;
-    }
-
-    .titreprincipal {
-        font-size: 1em;
-    }
-
-    .tab {
-        width: auto;
-    }
-
-    .navmain {
-        font-size: 0.80em;
-        display: flex;
-
-
-    }
-
-    .h1 {
-        font-size: 5em;
-    }
-
-    .box {
-
-        padding: none;
-    }
-
-    .conteneur {
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-    }
-
-    .box {
-        display: flex;
-        align-items: center;
-        padding: 0.2em;
-        text-align: center;
-    }
-
-    .nume {
-        background-color: none
-    }
-
-    a:hover {
-        background-color: none;
-
-    }
-
-
+h1, h2 {
+    margin: 0;
+    padding: 0;
 }
-
 
 h2 {
     text-align: left;
@@ -89,7 +31,6 @@ h1 {
     margin-top: 2em;
     margin-bottom: 2em;
     font-size: 1.15em;
-    margin-left: 2em;
 }
 
 .localisation {
@@ -97,30 +38,19 @@ h1 {
 }
 
 table {
-
     border: 1px solid rgba(95, 94, 94, 0.397);
     box-shadow: 12px 12px 2px 1px rgba(102, 101, 101, 0.171);
     border-radius: 0.5em;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 4em;
-    height: fit-content;
-    width: 50em;
+    width: 100%;
+    max-width: 50em;
 }
 
 td {
     text-align: left;
-    border-radius: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-
-}
-
-tr {}
-
-.date {
-    width: 5.5em;
-    text-align: center;
+    padding: 1em;
 }
 
 .navmain {
@@ -128,7 +58,6 @@ tr {}
     flex-direction: row;
     justify-content: end;
 }
-
 
 .brypp {
     display: flex;
@@ -150,32 +79,18 @@ tr {}
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0.2em;
+    padding: 0.5em;
     text-align: center;
 }
 
 .conteneur {
     display: flex;
-    gap: 1em;
     flex-wrap: wrap;
-}
-
-.mail {
-    background-color: #2d2d2d;
-}
-
-.nume {
-    background-color: #2d2d2d;
-}
-
-.conteneur {
+    gap: 1em;
     margin-bottom: 3em;
 }
 
-.expp,
-.formm,
-.aprop,
-.Contact {
+.expp, .formm, .aprop, .Contact {
     padding-right: 0.4em;
 }
 
@@ -185,4 +100,46 @@ footer {
     padding: 1em;
     margin: 2em;
     margin-top: 5em;
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .exper {
+        margin-top: 5em;
+    }
+
+    .brypp {
+        margin-top: 2em;
+    }
+
+    .titreprincipal {
+        font-size: 1em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .navmain {
+        font-size: 0.80em;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .box {
+        padding: 0.2em;
+    }
+
+    .conteneur {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

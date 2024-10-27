@@ -7,8 +7,8 @@
 }
 
 body {
-    margin: center;
-    padding: center;
+    margin: 0;
+    padding: 0;
     padding-left: 4em;
 }
 
@@ -97,8 +97,8 @@ td {
 footer {
     font-size: 0.50em;
     text-align: center;
-    padding: 1em;
-    margin: 2em;
+    padding: 10em;
+    margin: 10em;
     margin-top: 5em;
 }
 
